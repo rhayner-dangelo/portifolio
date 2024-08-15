@@ -1,5 +1,6 @@
 @import url('./user.css');
 @import url('./social.css');
+@import url('./about.css');
 
 * {
     margin: 0;
@@ -30,6 +31,7 @@
   }
 
   .app {
+    
     display: grid;
     grid-template-columns: 460px 1fr;
     gap: 48px;
@@ -44,11 +46,20 @@
 
   
   .projects {
+    
     grid-column: 1 / 3;
   }
 
   .card {
+    
     border-radius: 12px;
     background: var(--background-card);
     box-shadow: var(--shadow-card);
+  }
+
+  .subtitle{
+    
+    font-size: 28px;
+    font-weight: 600;
+
   }
