@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const percentageText = document.querySelector('.percentage');
 
    
-    const desiredPercentage = 25; 
+    const desiredPercentage = 37.5; 
 
 
     function updateProgress() {
